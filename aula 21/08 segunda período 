@@ -1,0 +1,8 @@
+idade = int(input("Digite sua idade: "))
+salario = float(input("Digite seu salário: R$ "))
+negativado = input("Você está negativado? (sim/não): ").lower()
+
+if idade >= 18 and salario >= 2000 and negativado == "não":
+    print("Você pode solicitar o empréstimo.")
+else:
+    print("Você não pode solicitar o empréstimo.")
